@@ -1,11 +1,11 @@
 blank_issues_enabled: false
 contact_links:
   - name: Suggestion - Addition/Broad/Lore
-    url: https://www.reddit.com/r/Kaiserreich/
+    url: https://www.reddit.com/r/KRGmod/
     about: For new content suggestions, long form ideas or lore proposals, our subreddit is the best place to share them
   - name: Installation/Running Issues
     url: https://kaiserreich.fandom.com/wiki/How_to_do_a_Clean_Install
-    about: If you are having issues installing or running the mod, please follow the steps here
+    about: If you are having issues installing or running the mod, please follow the steps for doing a clean install of KR4 on their wiki.
   - name: Launcher Issues
     url: https://kaiserreich.fandom.com/wiki/Troubleshooting_the_HOI4_Launcher
-    about: If you are having issues with the HOI4 launcher, please follow the steps here
+    about: If you are having issues with the HOI4 launcher, please follow the steps here for how to troubleshoot KR4 on their wiki.
