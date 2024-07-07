@@ -27,7 +27,7 @@ body:
     attributes:
       label: HOI4 Version
       description: What version of Hearts of Iron IV were you playing on?
-  - type: dropdown
+  - type: input
     attributes:
       label: Kalterkrieg Version
       description: What version of Kalterkrieg were you playing on?
