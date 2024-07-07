@@ -48,6 +48,7 @@ body:
       options:
         - "Yes"
         - "No"
+      default: 1
   - type: input
     attributes:
       label: Which expansions do you NOT have?
