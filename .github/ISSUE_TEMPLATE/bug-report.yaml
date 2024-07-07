@@ -39,15 +39,15 @@ body:
     attributes:
       label: Were you using Steam?
       options:
-        - Yes
-        - No
+        - "Yes"
+        - "No"
       default: 1
   - type: dropdown
     attributes:
       label: Were you in multiplayer?
       options:
-        - Yes
-        - No
+        - "Yes"
+        - "No"
   - type: input
     attributes:
       label: Which expansions do you NOT have?
