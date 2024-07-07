@@ -10,7 +10,7 @@ assignees: ''
 **Quick questions**
 OS:
 HOI4 version:
-Kaiserreich version:
+Kalterkrieg version:
 List any other mods used:
 Were you using Steam?
 Were you in multiplayer?
