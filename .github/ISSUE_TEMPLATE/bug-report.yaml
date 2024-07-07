@@ -6,15 +6,28 @@ body:
   - type: markdown
     attributes:
       value: "## Quick Questions!"
-  - type: input
+  - type: dropdown
     attributes:
       label: OS
       description: What operating system were you using?
+      options:
+        - Windows 11
+        - Windows 10
+        - macOS 10.14
+        - macOS 10.15
+        - macOS 11
+        - macOS 12
+        - macOS 13
+        - macOS 14
+        - macOS 15
+        - Linux
+        - Other
+      default: 1
   - type: input
     attributes:
       label: HOI4 Version
       description: What version of Hearts of Iron IV were you playing on?
-  - type: input
+  - type: dropdown
     attributes:
       label: Kalterkrieg Version
       description: What version of Kalterkrieg were you playing on?
@@ -22,12 +35,19 @@ body:
     attributes:
       label: List any other mods used
       description: Please list any other mods that you were using besides Kalterkrieg
-  - type: input
+  - type: dropdown
     attributes:
       label: Were you using Steam?
-  - type: input
+      options:
+        - Yes
+        - No
+      default: 1
+  - type: dropdown
     attributes:
       label: Were you in multiplayer?
+      options:
+        - Yes
+        - No
   - type: input
     attributes:
       label: Which expansions do you NOT have?
@@ -42,6 +62,12 @@ body:
     attributes:
       label: Steps to reproduce
       description: If possible, please explain step-by-step how to recreate this bug. Doing so greatly helps the Kaiserreich Team debug and solve your report.
+      value: |
+      1.
+      2.
+      3.
+      ...
+    render: bash
   - type: textarea
     attributes:
       label: Possible Cause
@@ -61,6 +87,8 @@ body:
     attributes:
       label: Log Files
       description: Path locations may vary due to installation/hardware but for Windows users they can be found through your documents folder - **C\Users\USER\Documents\Paradox Interactive\Hearts of Iron IV\logs** *NOTE* The log files are overwritten every time HOI4 is launched, so make sure to grab the log files before restarting the game.
+    validations:
+      required: true
   - type: checkboxes
     attributes:
       label: Important Files Attached
