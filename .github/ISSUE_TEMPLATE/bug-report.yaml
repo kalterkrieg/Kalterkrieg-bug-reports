@@ -62,11 +62,11 @@ body:
   - type: textarea
     attributes:
       label: Steps to reproduce
-      description: If possible, please explain step-by-step how to recreate this bug. Doing so greatly helps the Kaiserreich Team debug and solve your report.
+      description: If possible, please explain step-by-step how to recreate this bug. Doing so greatly helps the Kalterkrieg Team debug and solve your report.
   - type: textarea
     attributes:
       label: Possible Cause
-      description: If you have an idea what is the root cause of the issue, please enter it here. Doing so gives the Kaiserreich Team a good launch point to investigate this issue report.
+      description: If you have an idea what is the root cause of the issue, please enter it here. Doing so gives the Kalterkrieg Team a good launch point to investigate this issue report.
   - type: textarea
     attributes:
       label: Screenshots
